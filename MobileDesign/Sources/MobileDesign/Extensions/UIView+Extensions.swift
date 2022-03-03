@@ -1,11 +1,19 @@
-import Foundation
+import UIKit
 import WebKit
 
 /// Typealias for WKNavigationDelegate and UIScrollViewDelegate
 public typealias WebViewDelegates = WKNavigationDelegate & UIScrollViewDelegate
 
+final public class AppSeparator: UIView { }
+
+final public class AppBottomBorder: UIView { }
+
+final public class AppView: UIView {}
+
+public class AppSubView: UIView {}
+
 public extension UIView {
-    
+
     /// Add a shadow on a view's layer with given parameters
     ///
     /// - Parameters:
@@ -143,7 +151,7 @@ extension UIView {
         webView.navigationDelegate = delegate
         webView.scrollView.delegate = delegate
         addConstraintSubview(webView)
-        if let resourcePath = PlatformUI.platformBundle.resourcePath {
+        if let resourcePath = MobileDesign.platformBundle.resourcePath {
             let url = URL(fileURLWithPath: resourcePath)
             webView.loadHTMLString(urlString, baseURL: url)
         }
@@ -302,18 +310,6 @@ public extension UIView {
         addSubview(blurEffectView)
     }
 
-    /// Adds a toast view anchoring by given edgeInset.
-    ///
-    /// - Parameters:
-    ///   - view: The toast view to be added.
-    ///   - position: The toast view position on the view - ie., top or bottom
-    ///   - edgeInset: The inset distances for toast view.
-    func addConstrainedToastView(_ view: UIView, position: ToastPosition = .bottom, edgeInsets: UIEdgeInsets) {
-        view.leadingAnchor.constraint(equalTo: leadingAnchor, constant: edgeInsets.left).isActive = true
-        view.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -edgeInsets.right).isActive = true
-        view.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -(safeAreaInsets.bottom + edgeInsets.bottom)).isActive = position == .bottom
-        view.topAnchor.constraint(equalTo: topAnchor, constant: safeAreaInsets.top + edgeInsets.top).isActive = position == .top
-    }
 }
 
 // MARK: - Precursor to SwiftUI

@@ -1,35 +1,7 @@
-import Foundation
-
-extension UIBezierPath {
-
-    convenience init(lineSegment: LineSegment) {
-        self.init()
-        self.move(to: lineSegment.startPoint)
-        self.addLine(to: lineSegment.endPoint)
-    }
-}
+import UIKit
 
 extension CALayer {
-    
-    func addLineLayer(lineSegment: LineSegment, color: CGColor, width: CGFloat, isDashed: Bool, animated: Bool, oldSegment: LineSegment?) {
-        let layer = CAShapeLayer()
-        layer.path = UIBezierPath(lineSegment: lineSegment).cgPath
-        layer.fillColor = UIColor.clear.cgColor
-        layer.strokeColor = color
-        layer.lineWidth = width
-        if isDashed {
-            layer.lineDashPattern = [4, 4]
-        }
-        addSublayer(layer)
-        
-        if animated, let segment = oldSegment {
-            layer.animate(
-                fromValue: UIBezierPath(lineSegment: segment).cgPath,
-                toValue: layer.path!,
-                keyPath: "path")
-        }
-    }
-    
+
     func addTextLayer(frame: CGRect, color: CGColor, fontSize: CGFloat, text: String, animated: Bool, oldFrame: CGRect?) {
         let textLayer = CATextLayer()
         textLayer.frame = frame

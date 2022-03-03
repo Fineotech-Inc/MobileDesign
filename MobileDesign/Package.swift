@@ -5,6 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "MobileDesign",
+    platforms: [
+        // Only add support for iOS 11 and up.
+        .iOS(.v15)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(

@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 let imageCache = NSCache<NSString, UIImage>()
 
 extension UIImageView {
@@ -19,7 +19,7 @@ extension UIImageView {
             return
         }
 
-        let activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView(style: .gray)
+        let activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView(style: .medium)
         addSubview(activityIndicator)
         activityIndicator.startAnimating()
         activityIndicator.center = self.center
