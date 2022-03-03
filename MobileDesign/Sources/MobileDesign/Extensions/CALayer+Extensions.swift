@@ -1,11 +1,3 @@
-//
-//  CALayer+Extensions.swift
-//  PlatformUI
-//
-//  Created by Smitesh Patel on 2021-01-27.
-//  Copyright © 2021 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 extension UIBezierPath {

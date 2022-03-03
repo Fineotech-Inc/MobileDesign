@@ -1,11 +1,3 @@
-//
-//  UIWIndow+Extensions.swift
-//  PlatformUI
-//
-//  Created by smitesh patel on 2019-04-14.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension UIWindow {

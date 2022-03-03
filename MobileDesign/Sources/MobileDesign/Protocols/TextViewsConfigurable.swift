@@ -1,20 +1,9 @@
-//
-//  TextViewsConfigurable.swift
-//  PlatformUI
-//
-//  Created by Khalid Asad on 2019-02-05.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-// MARK: - StringsAttributable
-/// Extends upon String and NSAttributedString so that they are in one umbrella Protocol.
 public protocol StringsAttributable {}
 extension String: StringsAttributable {}
 extension NSAttributedString: StringsAttributable {}
 
-/// Configures text in Text Views of UIView - if text exists, add it, if not hide the view.
 public protocol TextViewsConfigurable {
     
     /// Takes a String or NSAttributedString to be applied to certain text views.

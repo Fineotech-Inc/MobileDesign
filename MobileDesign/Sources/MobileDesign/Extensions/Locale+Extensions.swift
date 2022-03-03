@@ -1,11 +1,3 @@
-//
-//  Locale+Extensions.swift
-//  PlatformUI
-//
-//  Created by Jacob Kim on 2017-11-10.
-//  Copyright © 2017 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 extension Locale {

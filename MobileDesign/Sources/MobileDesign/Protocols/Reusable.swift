@@ -1,14 +1,5 @@
-//
-//  Reusable.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-12.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-/// Provides interfaces to resue some proerties from a current existed class.
 public protocol Reusable {
 
     /// A static read-only property returning a string type of a reusable identifier representing an object which conforms this protocol

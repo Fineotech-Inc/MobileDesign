@@ -1,11 +1,3 @@
-//
-//  UIStackView+Extensions.swift
-//  PlatformUI
-//
-//  Created by Sean on 2019-07-04.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension UIStackView {

@@ -1,11 +1,3 @@
-//
-//  UIViewConstraints+Extensions.swift
-//  PlatformUI
-//
-//  Created by Asha Nair on 2021-02-24.
-//  Copyright © 2021 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 /*
@@ -29,7 +21,6 @@ public enum LayoutAnchor {
                               constant: CGFloat)
 }
 
-// MARK: - Factory methods
 extension LayoutAnchor {
     
     static let leading = relative(attribute: .leading)

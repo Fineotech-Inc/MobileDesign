@@ -1,11 +1,3 @@
-//
-//  UIButton+Extensions.swift
-//  PlatformUI
-//
-//  Created by Amala Muthukumar on 2020-09-25.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension UIButton {

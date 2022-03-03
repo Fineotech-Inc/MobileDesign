@@ -1,14 +1,5 @@
-//
-//  UIColor+Extensions.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-26.
-//  Copyright © 2018 Rogers. All rights reserved.
-//
-
 import Foundation
 
-// MARK: - Convenience Initializations
 extension UIColor {
 
     /// Initializes and returns a color object using the specified opacity and RGB component values as an integer.
@@ -83,7 +74,6 @@ extension UIColor {
     }
 }
 
-// MARK: - Publics
 extension UIColor {
     
     /// Creates an instance of UIImage with a given size
@@ -112,7 +102,6 @@ extension UIColor {
     }
 }
 
-// MARK: - UIColorError
 private enum UIColorError: Error {
 
     case invalidHex(UInt32)
@@ -131,7 +120,6 @@ extension UIColorError: LocalizedError {
     }
 }
 
-// MARK: - Fido
 extension UIColor {
     
     // MARK: - Blacks
@@ -250,7 +238,6 @@ extension UIColor {
     }
 }
 
-// MARK: - Rogers
 extension UIColor {
     
     static var rogersBlack: UIColor {
@@ -278,7 +265,6 @@ extension UIColor {
     }
 }
 
-// MARK: - Internal
 extension UIColor {
     
     var image: UIImage {

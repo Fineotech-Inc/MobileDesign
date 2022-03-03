@@ -1,11 +1,3 @@
-//
-//  ScrollableViewController.swift
-//  PlatformUI
-//
-//  Created by Khalid Asad on 10/20/20.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 import UIKit
 

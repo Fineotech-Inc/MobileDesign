@@ -1,11 +1,3 @@
-//
-//  NSAttributedString+Extensions.swift
-//  PlatformUI
-//
-//  Created by smitesh patel on 2019-04-17.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension NSAttributedString {
@@ -22,7 +14,6 @@ public extension NSAttributedString {
     }
 }
 
-// MARK: - Mutable attributed string
 public extension NSMutableAttributedString {
     
     /// Adds an attribute with the given name and value to the characters in the specified range.
@@ -54,7 +45,6 @@ public extension NSMutableAttributedString {
     }
 }
 
-// MARK: - String
 public extension String {
     
     /// The full series of characters.
@@ -104,7 +94,6 @@ public extension String {
     }
 }
 
-// MARK: - Operators
 public extension NSAttributedString {
     
     /// Add attributed strings together and return a new instance.

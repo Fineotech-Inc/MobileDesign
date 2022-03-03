@@ -1,11 +1,3 @@
-//
-//  Array+Extensions.swift
-//  PlatformUI
-//
-//  Created by Amala Muthukumar on 2021-02-02.
-//  Copyright © 2021 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension Array where Element: Equatable {

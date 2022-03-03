@@ -1,32 +1,5 @@
-//
-//  AccessibilityIdentifiable.swift
-//  PlatformUI
-//
-//  Created by smitesh patel on 2019-04-04.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 import UIKit
 
-/// The location where an element is being accessed
-///
-/// - homeTabBar: TabBar at the bottom of home page
-/// - menu: Drawal menu page
-/// - login: Login page
-/// - ctnAuth: CTN Authentication page
-/// - usage: Usage tab page
-/// - billing: Billing tab page
-/// - inbox: Inbox tab page
-/// - support: Support tab page
-/// - more: More tab page
-/// - onboarding: Onboarding flow
-/// - payment: Payment flow
-/// - settings: Support And More Settings flow
-/// - unknown: Unknown location
-/// - fdm: FDM flows
-/// - solarisEquipment: Solaris Equipmemt Flow
-/// - solarisUsage: Solaris Usage Flow
-/// - solarisPlan: Solaris Plan Flow
 
 public enum AccessibilityLocation: String {
     case homeTabBar
@@ -69,7 +42,6 @@ public enum AccessibilityLocation: String {
     case exitSurvey
 }
 
-// MARK: - AccessibilityIdentifiable
 public protocol AccessibilityIdentifiable {
 
     /// Instance of the location where an element is being accessed
@@ -106,7 +78,6 @@ extension AccessibilityIdentifiable where Self: UICollectionViewDataSource {
     public func updateAccessibilityIdentifiers() { }
 }
 
-// MARK: - Accessibility
 public protocol Accessibility {
     
     /// Returns a type of element i.e UIButton -> btn
@@ -139,7 +110,6 @@ extension Accessibility {
     }
 }
 
-// MARK: - UIView Extension
 extension UIView: Accessibility {
     
     private enum UIAccessibilityElement: String {
@@ -176,7 +146,6 @@ extension UIView: Accessibility {
     }
 }
 
-// MARK: - UIBarItem Extension
 extension UIBarItem: Accessibility {
     
     private enum UIAccessibilityElement: String {

@@ -1,14 +1,5 @@
-//
-//  WebLoadable.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-12.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-/// Provides interfaces to load a web page. 
 public protocol WebLoadable {
     
     /// A string type of enum conforming RawRepresentable. Each case represents an event / action from the web page.

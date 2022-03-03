@@ -1,14 +1,5 @@
-//
-//  NavigationStyler.swift
-//  PlatformUI
-//
-//  Created by smitesh patel on 2019-02-07.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-// MARK: - An enum corresponding to the Navigation bar Style
 public enum NavigationStyle: BrandProvider {
     /// style can be original, light, medium and dark
     case original
@@ -112,7 +103,6 @@ public enum NavigationStyle: BrandProvider {
     }
 }
 
-/// Provides navigation styles to NavigationBar
 public protocol NavigationStyler { }
 
 extension UIViewController: NavigationStyler { }

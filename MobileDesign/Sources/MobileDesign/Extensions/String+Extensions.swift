@@ -1,11 +1,3 @@
-//
-//  String+Extensions.swift
-//  PlatformUI
-//
-//  Created by Khalid Asad on 9/22/20.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension String {

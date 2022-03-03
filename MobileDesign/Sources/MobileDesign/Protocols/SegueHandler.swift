@@ -1,14 +1,5 @@
-//
-//  SegueHandler.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-12.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-/// Provides convenient interfaces to perform the segue transition
 public protocol SegueHandler {
 
     /// A string type of enum conforming RawRepresentable. Each case represents the next page/screen navigating from a current page.

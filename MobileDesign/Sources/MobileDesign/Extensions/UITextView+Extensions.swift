@@ -1,11 +1,3 @@
-//
-//  UITextView+Extensions.swift
-//  PlatformUI
-//
-//  Created by Amala Muthukumar on 2020-10-24.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension UITextView {

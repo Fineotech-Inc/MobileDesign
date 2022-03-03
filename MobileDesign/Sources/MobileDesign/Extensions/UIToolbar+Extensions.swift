@@ -1,11 +1,3 @@
-//
-//  UIToolbar+Extensions.swift
-//  PlatformUI
-//
-//  Created by Arbab Khan on 2017-11-14.
-//  Copyright © 2017 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 extension UIToolbar {

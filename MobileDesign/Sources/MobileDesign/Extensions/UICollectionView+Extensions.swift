@@ -1,11 +1,3 @@
-//
-//  UICollectionView+Extensions.swift
-//  PlatformUI
-//
-//  Created by Khalid Asad on 2/2/21.
-//  Copyright © 2021 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 import UIKit
 

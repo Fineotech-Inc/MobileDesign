@@ -1,11 +1,3 @@
-//
-//  UIImageView+Extensions.swift
-//  PlatformUI
-//
-//  Created by smitesh patel on 2020-06-30.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 let imageCache = NSCache<NSString, UIImage>()
 

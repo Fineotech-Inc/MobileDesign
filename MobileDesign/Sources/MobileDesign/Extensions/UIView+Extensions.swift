@@ -1,11 +1,3 @@
-//
-//  UIView+Extensions.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-05-22.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 import WebKit
 

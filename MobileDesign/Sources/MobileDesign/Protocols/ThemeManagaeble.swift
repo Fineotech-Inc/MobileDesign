@@ -1,11 +1,3 @@
-//
-//  ThemeManagaeble.swift
-//  PlatformUI
-//
-//  Created by smitesh patel on 2019-03-05.
-//  Copyright © 2019 Rogers Communication Inc. All rights reserved.
-//
-
 public struct ThemeAttributes {
     
     public var color: UIColor

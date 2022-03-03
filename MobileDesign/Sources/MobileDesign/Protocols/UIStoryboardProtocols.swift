@@ -1,15 +1,5 @@
-//
-//  UIStoryboardProtocols.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-12.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-// MARK: - UIStoryboardInitiatable
-/// Provides convenient interfaces to initialize a view controller from a certain storyboard given storyboard identify enums
 public protocol UIStoryboardInitiatable {
     
     /// A string type of enum conforming RawRepresentable. Each case represents a name of the storyboard.
@@ -41,9 +31,6 @@ extension UIStoryboardInitiatable where Self: UIStoryboard {
     }
 }
 
-// MARK: - UIStoryboardIdentifiable
-/// Provides a storyboard identifier of an object conforming this protocol.
-/// - References: UIStoryboardInitiatable
 public protocol UIStoryboardIdentifiable {
 
     /// A string type of a storyboard identifier

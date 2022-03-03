@@ -1,14 +1,5 @@
-//
-//  ItemStackable.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-12.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-/// Provides interfaces to layout the view items stackably
 public protocol ItemStackable {
     
     /// A receiver should define a type for the stackable items. It's usually an enum type.

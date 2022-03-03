@@ -1,11 +1,3 @@
-//
-//  UIImage+Extensions.swift
-//  PlatformUI
-//
-//  Created by Amala Muthukumar on 2020-11-04.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 public extension UIImage {

@@ -1,15 +1,5 @@
-//
-//  NibFileLoadable.swift
-//  PlatformUI
-//
-//  Created by Dexter Kim on 2018-04-12.
-//  Copyright © 2018 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
-// MARK: - NibFileLoadable
-/// Provides convenient default implementation functions related to UINib
 public protocol NibFileLoadable {
 
     /// A static computed property to return a UINib instance

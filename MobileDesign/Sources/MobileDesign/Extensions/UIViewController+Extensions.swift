@@ -1,11 +1,3 @@
-//
-//  UIViewController+Extensions.swift
-//  PlatformUI
-//
-//  Created by Jacob Kim on 2020-05-01.
-//  Copyright © 2020 Rogers Communication Inc. All rights reserved.
-//
-
 import Foundation
 
 @objc public extension UIViewController {
